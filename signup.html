@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login & Signup Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Add your own CSS styles here -->
+  <link rel="stylesheet" href="authStyle.css">
+</head>
+<body>
+
+<!-- Signup Form -->
+<div id="signup-form" class="container">
+  <h2 class="para">Sign Up</h2>
+  <input class="input" type="email" id="signup-email" placeholder="Email">
+  <input class="input" type="password" id="signup-password" placeholder="Password">
+  <button class="button" onclick="signup()">Sign Up</button>
+  <a href="login.html"><button class="button">Sign in</button></a>
+</div>
+
+<!-- Add your own JavaScript code here -->
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js"></script>
+<script src="auth.js">
+  // Firebase authentication
+</script>
+
+</body>
+</html>
