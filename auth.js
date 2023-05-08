@@ -14,7 +14,7 @@ var firebaseConfig = {
       .then((userCredential) => {
         if (userCredential.user.emailVerified) {
           // Redirect to next page on successful login
-          window.location.href = "index.html";
+          window.location.href = "index12.html";
         } else {
           alert("Please verify your email address to login.");
         }
